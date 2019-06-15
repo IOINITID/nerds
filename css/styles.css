@@ -1,9 +1,24 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
   width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
+
+.content {
+  width: 100%;
+  max-width: 1160px;
+}
+
+.header {
+  height: 545px;
+  background-image: url("img/grey_back.png");
+}
+.header a img {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

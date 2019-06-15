@@ -23,9 +23,6 @@ body {
   max-width: 100%;
   margin-right: 201px;
 }
-.header .header-top nav {
-  margin-right: 244px;
-}
 .header .header-top nav ul {
   display: flex;
   align-items: center;
@@ -61,6 +58,7 @@ body {
   padding-top: 15px;
   display: flex;
   align-items: center;
+  margin-left: 244px;
 }
 .header .header-top .header_cart:before {
   content: "";

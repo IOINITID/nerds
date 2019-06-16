@@ -3,8 +3,8 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
@@ -84,5 +84,59 @@ body {
   height: 15px;
   display: block;
   margin-right: 26px;
+}
+
+.header .header-intro-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-intro-wrapper .header-intro p {
+  width: 378px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  padding-top: 77px;
+}
+
+.header .header-intro-wrapper .header-intro p:nth-child(2) {
+  width: 378px;
+  color: #283136;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 27px;
+}
+
+.header .header-intro-wrapper .header-intro a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-top: 39px;
+  text-transform: uppercase;
+}
+
+.header .header-intro-wrapper img {
+  padding-left: 53px;
+  padding-top: 18px;
 }
 /*# sourceMappingURL=styles.css.map */

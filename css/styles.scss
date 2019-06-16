@@ -79,10 +79,10 @@ body {
     }
   }
 
-  .header-intro-wrapper {
+  .header-intro-wrapper-one {
     display: flex;
 
-    .header-intro {
+    .header-intro-text {
       p {
         width: 378px;
         color: #000000;
@@ -121,9 +121,11 @@ body {
       }
     }
 
-    img {
-      padding-left: 53px;
-      padding-top: 18px;
+    .header-intro-image {
+      img {
+        padding-left: 53px;
+        padding-top: 18px;
+      }
     }
   }
 }

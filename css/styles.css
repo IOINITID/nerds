@@ -86,13 +86,13 @@ body {
   margin-right: 26px;
 }
 
-.header .header-intro-wrapper {
+.header .header-intro-wrapper-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header .header-intro-wrapper .header-intro p {
+.header .header-intro-wrapper-one .header-intro-text p {
   width: 378px;
   color: #000000;
   font-family: "Roboto", sans-serif;
@@ -102,7 +102,7 @@ body {
   padding-top: 77px;
 }
 
-.header .header-intro-wrapper .header-intro p:nth-child(2) {
+.header .header-intro-wrapper-one .header-intro-text p:nth-child(2) {
   width: 378px;
   color: #283136;
   font-family: "Roboto", sans-serif;
@@ -112,7 +112,7 @@ body {
   padding-top: 27px;
 }
 
-.header .header-intro-wrapper .header-intro a {
+.header .header-intro-wrapper-one .header-intro-text a {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -135,7 +135,7 @@ body {
   text-transform: uppercase;
 }
 
-.header .header-intro-wrapper img {
+.header .header-intro-wrapper-one .header-intro-image img {
   padding-left: 53px;
   padding-top: 18px;
 }

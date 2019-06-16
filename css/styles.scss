@@ -8,13 +8,12 @@ body {
 }
 
 .header {
-  width: 1160px;
   height: 545px;
   background-image: url("../img/grey_back.png");
   background-repeat: no-repeat;
   padding: 49px 140px 0 140px;
 
-  .header-top {
+  .header-navigation {
     height: 65px;
     display: flex;
     align-items: center;

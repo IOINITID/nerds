@@ -496,8 +496,9 @@ body {
   .map {
     position: relative;
 
-    img {
+    .map-image {
       padding-top: 80px;
+      width: 100%;
     }
 
     .contacts {
@@ -572,6 +573,7 @@ body {
   }
 
   footer {
+    height: 217px;
     display: flex;
 
     .social-links {

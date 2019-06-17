@@ -657,12 +657,19 @@ body {
   padding: 29px;
 }
 
+.main footer .discount {
+  padding-top: 72px;
+  padding-left: 138px;
+}
+
 .main footer .discount h2 {
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
+  -webkit-font-kerning: none;
+          font-kerning: none;
 }
 
 .main footer .discount p {
@@ -671,5 +678,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+  padding-top: 11px;
 }
 /*# sourceMappingURL=styles.css.map */

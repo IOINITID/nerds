@@ -583,7 +583,7 @@ body {
   height: 50px;
   background-color: #fb565a;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
@@ -607,5 +607,32 @@ body {
   position: absolute;
   top: 169px;
   right: 389px;
+}
+
+.main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main footer .social-links a img {
+  width: 26px;
+  height: 15px;
+}
+
+.main footer .discount h2 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.main footer .discount p {
+  color: #444444;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
 }
 /*# sourceMappingURL=styles.css.map */

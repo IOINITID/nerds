@@ -432,4 +432,8 @@ body {
   display: block;
   margin-right: 10px;
 }
+
+.main .about .about-wrapper .about-wrapper-logo {
+  margin-left: auto;
+}
 /*# sourceMappingURL=styles.css.map */

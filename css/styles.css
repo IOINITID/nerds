@@ -526,4 +526,12 @@ body {
 .main .devider:nth-of-type(3) {
   margin-top: 44px;
 }
+
+.main .map {
+  position: relative;
+}
+
+.main .map img {
+  padding-top: 80px;
+}
 /*# sourceMappingURL=styles.css.map */

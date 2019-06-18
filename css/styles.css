@@ -24,9 +24,14 @@ body {
           align-items: center;
 }
 
-.header .header-navigation a img {
-  max-width: 100%;
+.header .header-navigation .header-logo-link {
+  width: 160px;
+  height: 65px;
   margin-right: 201px;
+}
+
+.header .header-navigation .header-logo-link img {
+  max-width: 100%;
 }
 
 .header .header-navigation nav ul {
@@ -67,7 +72,7 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 15px;
+  margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

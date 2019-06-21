@@ -788,7 +788,7 @@ body {
   width: 260px;
 }
 
-.main-shop .content aside h3 {
+.main-shop .content aside .coast-title {
   color: #000000;
   font-size: 18px;
   font-weight: 700;
@@ -955,6 +955,71 @@ body {
   line-height: 22px;
   text-align: center;
   margin-left: 8px;
+}
+
+.main-shop .content aside form .grid {
+  margin-top: 54px;
+  letter-spacing: 0s;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main-shop .content aside form [type="radio"]:checked,
+.main-shop .content aside form [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.main-shop .content aside form [type="radio"]:checked + label,
+.main-shop .content aside form [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+
+.main-shop .content aside form [type="radio"]:checked + label:before,
+.main-shop .content aside form [type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.main-shop .content aside form [type="radio"]:checked + label:after,
+.main-shop .content aside form [type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #a6a6a6;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.main-shop .content aside form [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.main-shop .content aside form [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 .main-shop .content .sort {

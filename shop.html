@@ -44,7 +44,7 @@
       <div class="content">
 
         <aside>
-          <h3>СТОИМОСТЬ:</h3>
+          <h3 class="coast-title">СТОИМОСТЬ:</h3>
 
           <form action="echo.htmlacademy.ru" method="POST">
             <input type="range" name="price" id="price" value="0">
@@ -56,17 +56,16 @@
                 <input type="number" name="" id="" value="" placeholder="15 000">
               </label>
             </div>
-            <h3>Сетка:</h3>
-            <label for="">Адаптивная
-              <input type="checkbox" name="" id="">
-            </label>
-            <label for="">Фиксированная
-              <input type="checkbox" name="" id="">
-            </label>
-            <label for="">Резиновая
-              <input type="checkbox" name="" id="">
-            </label>
-            <h3>ОСОБЕННОСТИ:</h3>
+            <h3 class="grid">Сетка:</h3>
+
+            <input type="radio" id="test1" name="radio-group" checked>
+            <label for="test1">Адаптивная</label>
+            <input type="radio" id="test2" name="radio-group">
+            <label for="test2">Фиксированная</label>
+            <input type="radio" id="test3" name="radio-group">
+            <label for="test3">Резиновая</label>
+
+            <!-- <h3>ОСОБЕННОСТИ:</h3>
 
             <label for="">Слайдер
               <input type="checkbox">
@@ -88,7 +87,7 @@
               <input type="checkbox">
             </label>
 
-            <input type="submit" value="ПОКАЗАТЬ">
+            <button type="submit">ПОКАЗАТЬ</button> -->
 
           </form>
         </aside>

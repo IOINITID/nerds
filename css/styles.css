@@ -920,6 +920,43 @@ body {
   background: #00ca74;
 }
 
+.main-shop .content aside form .price-wrapper {
+  margin-top: 4px;
+}
+
+.main-shop .content aside form .price-wrapper label {
+  text-transform: uppercase;
+}
+
+.main-shop .content aside form .price-wrapper label input {
+  width: 80px;
+  background-color: #eeeeee;
+  border: 0;
+  margin-left: 8px;
+  color: #283136;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  height: 38px;
+  text-align: center;
+}
+
+.main-shop .content aside form .price-wrapper label:nth-child(2) {
+  margin-left: 28px;
+}
+
+.main-shop .content aside form .price-wrapper label:nth-child(2) input {
+  width: 80px;
+  background-color: #eeeeee;
+  border: 0;
+  color: #283136;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 8px;
+}
+
 .main-shop .content .sort {
   width: 760px;
 }
@@ -1072,5 +1109,10 @@ body {
 
 .wrapper .map .contacts {
   top: 54px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 /*# sourceMappingURL=styles.css.map */

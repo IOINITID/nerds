@@ -1,4 +1,4 @@
-Название: **Нёрдс**
+Название: **Нёрдс** [![Build Status](https://travis-ci.com/IOINITID/nerds.svg?branch=master)](https://travis-ci.com/IOINITID/nerds)
 
 ------------
 

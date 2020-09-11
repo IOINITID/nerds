@@ -11,7 +11,7 @@ const rename = require('gulp-rename');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 const webpicture = require('gulp-webp');
-const uglify = require('gulp-uglify');
+const terser = require('gulp-terser');
 const svgstore = require('gulp-svgstore');
 const del = require('del');
 const posthtml = require('gulp-posthtml');
@@ -79,7 +79,7 @@ const webp = () => {
 const scripts = () => {
   return src(['source/js/**/*.js', '!source/js/**/*.min.js'])
     .pipe(babel({presets: ['@babel/env']}))
-    .pipe(uglify())
+    .pipe(terser())
     .pipe(rename({suffix: '.min'}))
     .pipe(dest('build/js'));
 };

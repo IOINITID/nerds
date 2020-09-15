@@ -1,0 +1,22 @@
+.cart {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.cart__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.cart__link {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: inherit;
+  text-align: right;
+  color: var(--text-color-default);
+  text-transform: uppercase;
+  text-decoration: none;
+}

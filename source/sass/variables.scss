@@ -1,5 +1,13 @@
+:root {
+  // Font by default
+  --font-default: "Roboto", "Arial", sans-serif;
+
+  // Text color by default
+  --text-color-default: #000000;
+}
+
 // Fonts: Text fonts
-$font-default: "Roboto", "Arial", sans-serif;
+// $font-default: "Roboto", "Arial", sans-serif;
 
 // Colors: Text colors
 $text-default: #000000;

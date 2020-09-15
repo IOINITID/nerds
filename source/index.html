@@ -12,33 +12,38 @@
 <body>
 
   <header class="header">
-    <nav class="navigation">
-      <a>
-        <img src="./img/logo-icon.svg" width="160" height="66" alt="Логотип дизайн-студии Нёрдс.">
-      </a>
-      <ul>
-        <li>
-          <a href="#">Студия</a>
-        </li>
-        <li>
-          <a href="#">Клиенты</a>
-        </li>
-        <li>
-          <a href="shop.html">Магазин</a>
-        </li>
-        <li>
-          <a href="#">Контакты</a>
-        </li>
-      </ul>
-      <a href="#">Корзина</a>
-    </nav>
+    <div class="container">
+      <nav class="navigation">
+        <a class="logo">
+          <img class="logo__image" src="./img/logo-icon.svg" width="160" height="66" alt="Логотип дизайн-студии Нёрдс.">
+        </a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Студия</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Клиенты</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="shop.html">Магазин</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="cart">
+          <img class="cart__icon" src="./img/cart-icon.svg" width="15" height="15" alt="Иконка корзины.">
+          <a class="cart__link" href="#">Корзина</a>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="main">
-    <h1>Сайт дизайн-студии Нёрдс.</h1>
-    <section>
-      <h2>Наши преимущества.</h2>
-      <ul>
+    <h1 class="visually-hidden">Сайт дизайн-студии Нёрдс.</h1>
+    <section class="features">
+      <h2 class="visually-hidden">Наши преимущества.</h2>
+      <ul class="features__list">
         <li>
           <p>Долго, дорого, скрупулезно.</p>
           <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
@@ -46,14 +51,14 @@
           <img src="./img/feature-one.png" width="760" height="431"
             alt="Три мобильных телефона белого цвета с демострацией дизайна приложения.">
         </li>
-        <li>
+        <li style="display: none;">
           <p>Любим математику как никто другой</p>
           <p>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
           <a href="#">Узнать больше</a>
           <img src="./img/feature-two.png" width="760" height="431"
             alt="Два компьютера белого цвета с демострацией дизайна сайта.">
         </li>
-        <li>
+        <li style="display: none;">
           <p>Только ночь, только хардкор</p>
           <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
           <a href="#">Узнать больше</a>

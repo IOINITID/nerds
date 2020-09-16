@@ -44,8 +44,19 @@
   color: var(--basic-white);
   text-transform: uppercase;
   text-decoration: none;
-  background: var(--basic-carnation);
+  background-color: var(--basic-carnation);
   border-radius: 3px;
+}
+
+.features__link:hover,
+.features__link:focus {
+  background-color: var(--basic-cinnabar);
+}
+
+.features__link:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: var(--basic-valencia);
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
 .features__image {

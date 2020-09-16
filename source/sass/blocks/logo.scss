@@ -7,3 +7,7 @@
   width: 100%;
   height: 100%;
 }
+
+.logo[href]:hover .logo__image path {
+  fill: var(--basic-silver-chalice);
+}

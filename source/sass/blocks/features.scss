@@ -1,6 +1,6 @@
 .features {
   padding-bottom: 80px;
-  background: #eeeeee;
+  background: var(--basic-gallery);
 }
 
 .features__list {
@@ -19,7 +19,7 @@
   font-size: 55px;
   line-height: 55px;
   font-family: inherit;
-  color: var(--text-color-default);
+  color: var(--basic-black);
 }
 
 .features__description {
@@ -30,7 +30,7 @@
   font-size: 16px;
   line-height: 24px;
   font-family: inherit;
-  color: #283136;
+  color: var(--basic-outer-space);
 }
 
 .features__link {
@@ -41,10 +41,10 @@
   font-size: 16px;
   line-height: 18px;
   font-family: inherit;
-  color: #ffffff;
+  color: var(--basic-white);
   text-transform: uppercase;
   text-decoration: none;
-  background: #fb565a;
+  background: var(--basic-carnation);
   border-radius: 3px;
 }
 

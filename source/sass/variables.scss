@@ -1,9 +1,13 @@
 :root {
   // Font by default
-  --font-default: "Roboto", "Arial", sans-serif;
+  --basic-font: "Roboto", "Arial", sans-serif;
 
-  // Text color by default
-  --text-color-default: #000000;
+  // Colors by default
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-carnation: #fb565a;
+  --basic-gallery: #eeeeee;
+  --basic-outer-space: #283136;
 }
 
 // Fonts: Text fonts

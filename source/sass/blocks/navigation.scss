@@ -24,9 +24,18 @@
   font-size: 16px;
   line-height: 30px;
   font-family: inherit;
-  color: var(--text-color-default);
+  color: var(--basic-black);
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--basic-carnation);
+}
+
+.navigation__link:active {
+  opacity: 0.3;
 }
 
 .navigation__item--active .navigation__link::before {
@@ -37,5 +46,5 @@
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #fb565a;
+  background-color: var(--basic-carnation);
 }

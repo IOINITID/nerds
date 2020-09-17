@@ -54,9 +54,9 @@
 }
 
 .features__link:active {
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--basic-white-300);
   background-color: var(--basic-valencia);
-  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  box-shadow: inset 0 3px 0 var(--basic-swamp-100);
 }
 
 .features__image {

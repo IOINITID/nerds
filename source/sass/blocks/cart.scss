@@ -28,8 +28,7 @@
 }
 
 .cart__link:active {
-  color: var(--basic-black);
-  opacity: 0.3;
+  color: var(--basic-black-300);
 }
 
 .cart--active .cart__link::before {

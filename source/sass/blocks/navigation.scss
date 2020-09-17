@@ -35,8 +35,7 @@
 }
 
 .navigation__link:active {
-  color: var(--basic-black);
-  opacity: 0.3;
+  color: var(--basic-black-300);
 }
 
 .navigation__item--active .navigation__link::before {
